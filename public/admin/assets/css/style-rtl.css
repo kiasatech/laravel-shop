@@ -1,0 +1,114 @@
+/*.tooltip-inner{*/
+/*    max-width: 200px;*/
+/*    padding: 3px 8px;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    background-color: #f06292!important;*/
+/*    border-radius: .25rem;*/
+/*}*/
+
+.tooltip-inner{
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #6291f0 !important;
+    border-radius: .25rem;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=right] .arrow::before, .tooltip.bs-tooltip-right .arrow::before {
+    display: none;
+}
+
+
+.tooltip-primary .tooltip-inner {
+    background-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-top .arrow:before {
+    border-top-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-right .arrow:before {
+    border-right-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-left .arrow:before {
+    border-left-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #007bff;
+}
+
+.tooltip-success .tooltip-inner {
+    background-color: #28a745;
+}
+.tooltip-success.bs-tooltip-top .arrow:before {
+    border-top-color: #28a745;
+}
+.tooltip-success.bs-tooltip-right .arrow:before {
+    border-right-color: #28a745;
+}
+.tooltip-success.bs-tooltip-left .arrow:before {
+    border-left-color: #28a745;
+}
+.tooltip-success.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #28a745;
+}
+
+.tooltip-info .tooltip-inner {
+    background-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-top .arrow:before {
+    border-top-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-right .arrow:before {
+    border-right-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-left .arrow:before {
+    border-left-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #17a2b8;
+}
+
+.tooltip-warning .tooltip-inner {
+    background-color: #ffc107!important;
+}
+.tooltip-warning.bs-tooltip-top .arrow:before {
+    border-top-color: #ffc107!important;
+}
+.tooltip-warning.bs-tooltip-right .arrow:before {
+    border-right-color: #ffc107!important;
+}
+.tooltip-warning.bs-tooltip-left .arrow:before {
+    border-left-color: #ffc107!important;
+}
+.tooltip-warning.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #ffc107!important;
+}
+
+.tooltip-danger .tooltip-inner {
+    background-color: #dc3545!important;
+}
+.tooltip-danger.bs-tooltip-top .arrow:before {
+    border-top-color: #dc3545!important;
+}
+.tooltip-danger.bs-tooltip-right .arrow:before {
+    border-right-color: #dc3545!important;
+}
+.tooltip-danger.bs-tooltip-left .arrow:before {
+    border-left-color: #dc3545!important;
+}
+.tooltip-danger.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #dc3545!important;
+}
+/*-----------------Login Show Password-------------------*/
+
+.pass-status{
+    position: absolute;
+    bottom: 11px;
+    font-size: 17px;
+    left: 24px;
+}
+
+.pass-status:hover{
+    color: var(--info);
+}
